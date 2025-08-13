@@ -1,0 +1,806 @@
+{
+    "business-marketing": [
+        {
+            "id": 1,
+            "title": "Market Trend Analysis",
+            "prompt": "Analyze current market trends in [industry] and identify emerging opportunities for growth.",
+            "tags": [
+                "Market Analysis",
+                "Strategy",
+                "Business Insights"
+            ],
+            "difficulty": "Intermediate"
+        },
+        {
+            "id": 2,
+            "title": "Competitive Landscape Comparison",
+            "prompt": "Compare our organization with top competitors regarding product offerings, customer engagement, and market position.",
+            "tags": [
+                "Competitive Analysis",
+                "Benchmarking",
+                "Strategy"
+            ],
+            "difficulty": "Intermediate"
+        },
+        {
+            "id": 3,
+            "title": "Customer Feedback Insights",
+            "prompt": "Analyze customer feedback from recent surveys and online reviews to identify key satisfaction drivers and areas for improvement.",
+            "tags": [
+                "Customer Insights",
+                "CX",
+                "Analytics"
+            ],
+            "difficulty": "Advanced"
+        },
+        {
+            "id": 4,
+            "title": "Innovative Expansion Ideas",
+            "prompt": "Generate innovative ideas for expanding into new markets, including potential challenges and opportunities.",
+            "tags": [
+                "Growth Strategy",
+                "Ideation",
+                "Business Development"
+            ],
+            "difficulty": "Advanced"
+        },
+        {
+            "id": 5,
+            "title": "Social Media Content Calendar",
+            "prompt": "Create a weekly social media calendar for [platform] with content themes like education, inspiration, promotions, or behind-the-scenes.",
+            "tags": [
+                "Social Media",
+                "Content Planning",
+                "Marketing"
+            ],
+            "difficulty": "Beginner"
+        },
+        {
+            "id": 6,
+            "title": "Brand Voice Guide",
+            "prompt": "Describe our brand voice in three words. Write examples of how our brand communicates in social posts, emails, and blogs.",
+            "tags": [
+                "Branding",
+                "Tone & Style",
+                "Messaging"
+            ],
+            "difficulty": "Beginner"
+        },
+        {
+            "id": 7,
+            "title": "SEO-Optimized Blog Outline",
+            "prompt": "Generate a blog outline on the benefits of our new service, optimized for SEO and tailored to our target audience with a call to action.",
+            "tags": [
+                "Content Marketing",
+                "SEO",
+                "Blogging"
+            ],
+            "difficulty": "Intermediate"
+        },
+        {
+            "id": 8,
+            "title": "Instagram Posting Time & Hashtags",
+            "prompt": "Suggest optimal times to post for Instagram about the new product we offer and recommend relevant hashtags based on audience engagement patterns.",
+            "tags": [
+                "Social Media",
+                "Engagement",
+                "Scheduling"
+            ],
+            "difficulty": "Beginner"
+        },
+        {
+            "id": 9,
+            "title": "Case Study Framework",
+            "prompt": "Create a case study outlining how [your company] helped [client] achieve [specific result] through [strategy or service].",
+            "tags": [
+                "Case Study",
+                "Storytelling",
+                "Customer Success"
+            ],
+            "difficulty": "Intermediate"
+        },
+        {
+            "id": 10,
+            "title": "Blog Post Ideas Generator",
+            "prompt": "Suggest 10 blog post ideas related to [topic] that align with recent trends in [industry].",
+            "tags": [
+                "Content Ideation",
+                "Blogging",
+                "Trend Spotting"
+            ],
+            "difficulty": "Beginner"
+        }
+    ],
+    "content-creation": [
+        {
+            "id": 1,
+            "title": "Personalized Insta Content idea",
+            "prompt": "Help me come up with ideas for insta content but before that ask me about my interests, hobbies, and what I want to achieve with my content.",
+            "tags": [
+                "Social Media",
+                "Content Creation",
+                "Personal Branding"
+            ],
+            "difficulty": "Beginner"
+        },
+        {
+            "id": 2,
+            "title": "YouTube Video Script Generator",
+            "description": "Generate an engaging YouTube video script with proper structure",
+            "prompt": "You are a professional YouTube content writer.\nWrite a highly engaging, well-structured script for a YouTube video about [topic].\nThe video should be [target duration in minutes] long and aimed at [target audience].\nUse a friendly and conversational tone with short, punchy sentences.\nStructure the script into:\n1. Hook (first 10 seconds to grab attention)\n2. Introduction (introduce the topic and what viewers will learn)\n3. Main Content (present information in sections with examples/stories)\n4. Engagement cues (ask questions, encourage likes/subs)\n5. Conclusion (summarize and end with call-to-action)",
+            "tags": [
+                "youtube",
+                "script",
+                "content"
+            ],
+            "difficulty": "Intermediate"
+        },
+        {
+            "id": 3,
+            "title": "Blog Post Outline",
+            "prompt": "Create a detailed outline for a blog post about [topic]. Include sections for introduction, main points, examples, and conclusion.",
+            "tags": [
+                "Blogging",
+                "Content Strategy",
+                "Writing"
+            ],
+            "difficulty": "Beginner"
+        },
+        {
+            "id": 4,
+            "title": "Social Media Content Schedule",
+            "prompt": "Plan a week's worth of social media content for [platform] focusing on [theme or topic]. Include post types, captions, and hashtags.",
+            "tags": [
+                "Social Media",
+                "Content Planning",
+                "Marketing"
+            ],
+            "difficulty": "Intermediate"
+        },
+        {
+            "id": 5,
+            "title": "Podcast Episode Ideas",
+            "prompt": "Generate 5 engaging podcast episode ideas related to [topic]. Include potential guests and key discussion points for each episode.",
+            "tags": [
+                "Podcasting",
+                "Content Ideation",
+                "Storytelling"
+            ],
+            "difficulty": "Advanced"
+        },
+        {
+            "id": 6,
+            "title": "Best way to success on YouTube",
+            "prompt": "What are the best ways to succeed on YouTube? Provide a detailed guide covering content strategy, audience engagement, and growth tactics.",
+            "tags": [
+                "YouTube",
+                "Content Strategy",
+                "Growth Tactics"
+            ],
+            "difficulty": "Advanced"
+        },
+        {
+            "id": 7,
+            "title": "Storywriting With AI",
+            "prompt": "Write a short story about [theme or topic] using AI. The story should be engaging, with a clear beginning, middle, and end.",
+            "tags": [
+                "Creative Writing",
+                "AI",
+                "Storytelling"
+            ],
+            "difficulty": "Intermediate"
+        },
+        {
+            "id": 8,
+            "title": "Email Newsletter Content",
+            "prompt": "Draft content for an email newsletter about [topic]. Include a catchy subject line, engaging introduction, main content, and a call to action.",
+            "tags": [
+                "Email Marketing",
+                "Content Creation",
+                "Engagement"
+            ],
+            "difficulty": "Beginner"
+        },
+        {
+            "id": 9,
+            "title": "Visual Content Ideas",
+            "prompt": "Suggest creative visual content ideas for [topic] that can be used across social media platforms. Include formats like infographics, videos, and images.",
+            "tags": [
+                "Visual Content",
+                "Social Media",
+                "Creativity"
+            ],
+            "difficulty": "Intermediate"
+        },
+        {
+            "id": 10,
+            "title": "Content Repurposing Strategy",
+            "prompt": "Create a strategy for repurposing existing content into different formats (e.g., turning a blog post into a video, infographic, and social media posts).",
+            "tags": [
+                "Content Strategy",
+                "Repurposing",
+                "Marketing"
+            ],
+            "difficulty": "Advanced"
+        },
+        {
+            "id": 11,
+            "title": "Podcast Script",
+            "prompt": "Write a script for a podcast episode about [topic]. The script should include an engaging introduction, main discussion points, and a conclusion with a call to action.",
+            "tags": [
+                "Podcasting",
+                "Scriptwriting",
+                "Content Creation"
+            ],
+            "difficulty": "Intermediate"
+        },
+        {
+            "id": 12,
+            "title": "Creative Writing Prompt",
+            "prompt": "Write a short story or poem based on the following prompt: [insert creative prompt]. The piece should be engaging and showcase your unique writing style.",
+            "tags": [
+                "Creative Writing",
+                "Storytelling",
+                "Poetry"
+            ],
+            "difficulty": "Intermediate"
+        },
+        {
+            "id": 13,
+            "title": "Text To Image Generation Prompt",
+            "prompt": "Create a prompt for generating an image using AI tools. The prompt should specify the desired style, elements, and mood of the image.",
+            "tags": [
+                "Image Generation",
+                "AI Tools",
+                "Creativity"
+            ],
+            "difficulty": "Beginner"
+        }
+    ],
+    "programming-tech": [
+        {
+            "id": 1,
+            "title": "Code Review/Analysis",
+            "prompt": "Review the following code snippet and provide feedback on its efficiency, readability, and potential improvements:\n\n```javascript\nfunction exampleFunction(param) {\n  // Your code here\n}\n```",
+            "tags": [
+                "Code Review",
+                "Programming",
+                "Efficiency"
+            ],
+            "difficulty": "Intermediate"
+        },
+        {
+            "id": 2,
+            "title": "Debugging Assistance",
+            "prompt": "Help me debug this code snippet. What could be causing the following error: [insert error message]?\n\n```python\n# Your code here\n```",
+            "tags": [
+                "Debugging",
+                "Programming",
+                "Error Handling"
+            ],
+            "difficulty": "Advanced"
+        },
+        {
+            "id": 3,
+            "title": "Data Algorithm Design",
+            "prompt": "Design an algorithm to solve the following problem: [describe problem]. Provide a step-by-step explanation of your approach.",
+            "tags": [
+                "Algorithm Design",
+                "Data Structures",
+                "Problem Solving"
+            ],
+            "difficulty": "Advanced"
+        },
+        {
+            "id": 4,
+            "title": "Data Algorithm Optimization",
+            "prompt": "Optimize the following algorithm for better performance. What changes would you make to improve its time complexity?\n\n```csharp\n// Your code here\n```",
+            "tags": [
+                "Algorithm Optimization",
+                "Performance",
+                "Programming"
+            ],
+            "difficulty": "Advanced"
+        },
+        {
+            "id": 5,
+            "title": "API Integration Guide",
+            "prompt": "Provide a step-by-step guide on how to integrate the following API into a web application: [API documentation link]. Include code examples and best practices.",
+            "tags": [
+                "API Integration",
+                "Web Development",
+                "Programming"
+            ],
+            "difficulty": "Intermediate"
+        },
+        {
+            "id": 6,
+            "title": "Navbar Component generation",
+            "prompt": "Generate a responsive navigation bar component using [JS/React/Next]. The navbar should include links to Home, About, Services, and Contact. Use Tailwind CSS for styling.",
+            "tags": [
+                "Web Development",
+                "React",
+                "Next.js"
+            ],
+            "difficulty": "Beginner"
+        },
+        {
+            "id": 7,
+            "title": "E-commerce website development",
+            "prompt": "You are a top-tier web development assistant. I want you to generate **a complete production-ready e-commerce website**, in multiple steps. I will ask you to proceed step-by-step; at each stage, you generate code only for that part and wait for “GO NEXT” before moving on. Use the following file & folder structure:",
+            "tags": [
+                "Web Development",
+                "E-commerce",
+                "Full Stack"
+            ],
+            "difficulty": "Advanced"
+        },
+        {
+            "id": 8,
+            "title": "JavaScript Function Optimization",
+            "prompt": "Optimize the following JavaScript function for better performance. What changes would you make to improve its efficiency?\n\n```javascript\nfunction calculateSum(arr) {\n  let sum = 0;\n  for (let i = 0; i < arr.length; i++) {\n    sum += arr[i];\n  }\n  return sum;\n}\n```",
+            "tags": [
+                "JavaScript",
+                "Function Optimization",
+                "Performance"
+            ],
+            "difficulty": "Intermediate"
+        },
+        {
+            "id": 9,
+            "title": "Database Query Optimization",
+            "prompt": "Optimize the following SQL query for better performance. What changes would you make to improve its execution time?\n\n```sql\nSELECT * FROM users WHERE age > 30 ORDER BY created_at DESC;\n```",
+            "tags": [
+                "SQL",
+                "Database Optimization",
+                "Performance"
+            ],
+            "difficulty": "Intermediate"
+        },
+        {
+            "id": 10,
+            "title": "A Modern Impressive Portfolio Website",
+            "prompt": "Create a modern, impressive portfolio website using React and Tailwind CSS. The website should include sections for Home, About, Projects, and Contact. Use responsive design principles to ensure it looks great on all devices.",
+            "tags": [
+                "Web Development",
+                "React",
+                "Portfolio"
+            ],
+            "difficulty": "Intermediate"
+        },
+        {
+            "id": 11,
+            "title": "A Modern Product Landing Page development",
+            "prompt": "Create a modern product landing page using React and Tailwind CSS. The page should include sections for Product Features, Testimonials, Pricing, and a Call to Action. Ensure the design is visually appealing and responsive.",
+            "tags": [
+                "Web Development",
+                "React",
+                "Landing Page"
+            ],
+            "difficulty": "Intermediate"
+        },
+        {
+            "id": 12,
+            "title": "A Industry level Todo App development",
+            "prompt": "Create a fully functional, industry-level Todo App using React and Tailwind CSS. The app should include features like user authentication, task management, and responsive design. Ensure the code is clean and follows best practices.",
+            "tags": [
+                "Web Development",
+                "React",
+                "Todo App"
+            ],
+            "difficulty": "Advanced"
+        },
+        {
+            "id": 13,
+            "title": "A Industry level Password Manager development",
+            "prompt": "You are a Flutter mobile security architect.\nBuild a production-quality password manager app in Flutter with the following requirements:\n\n1. Encryption: Use AES-256-GCM for all vault data.\n2. Key Derivation: Use Argon2id (preferred) with PBKDF2-SHA256 as fallback.\n3. Secure Storage: Store keys in Flutter Secure Storage (iOS Keychain, Android Keystore).\n4. Biometric Support: Use local_auth for biometric unlock, wrapping keys securely.\n5. Data Storage: Use encrypted local DB (Hive AES or SQLCipher).\n6. Obfuscation: Enable Flutter obfuscation in release builds.\n7. Secure Communication: Enforce HTTPS, optional certificate pinning if network sync is enabled.\n8. Testing: Include one unit test for encryption and one widget test for login screen.\n9. Documentation: Provide a brief README explaining master password flow and storage architecture.\n10. Deliverables: Minimal working code snippets and a clear project structure outline.",
+            "tags": [
+                "Flutter",
+                "Mobile Development",
+                "Security"
+            ],
+            "difficulty": "Advanced"
+        }
+    ],
+    "education-learning": [
+        {
+            "id": 1,
+            "title": "Concept Simplifier & Analogy Generator",
+            "prompt": "Explain the complex concept of [complex scientific or academic concept, e.g., quantum entanglement, photosynthesis] in simple terms, as if explaining it to a [target audience, e.g., a 10-year-old, a high school student]. Use at least two clear analogies or real-world examples to aid understanding.",
+            "tags": [
+                "Concept Explanation",
+                "Study Help",
+                "Analogy",
+                "Learning Tool"
+            ],
+            "difficulty": "Beginner"
+        },
+        {
+            "id": 2,
+            "title": "Dynamic Lesson Plan Creator",
+            "prompt": "Develop a comprehensive and engaging lesson plan for a [grade level] class on the topic of [specific topic]. The plan should include learning objectives, a list of materials, an introductory 'hook' activity, step-by-step instructional procedures, a guided practice exercise, and a method for assessment for a [duration, e.g., 45-minute] period.",
+            "tags": [
+                "Lesson Planning",
+                "Teaching Aid",
+                "Curriculum Development",
+                "K-12 Education"
+            ],
+            "difficulty": "Intermediate"
+        },
+        {
+            "id": 3,
+            "title": "Custom Quiz & Test Builder",
+            "prompt": "Generate a quiz with [number] questions to assess understanding of [subject or book chapter]. The quiz should include a mix of question types: [e.g., 5 multiple-choice, 3 short-answer, and 2 true/false]. Provide a separate answer key for all questions.",
+            "tags": [
+                "Assessment",
+                "Quiz Generation",
+                "Study Material",
+                "Test Preparation"
+            ],
+            "difficulty": "Intermediate"
+        },
+        {
+            "id": 4,
+            "title": "Socratic Dialogue Prompter",
+            "prompt": "Act as a Socratic tutor. I want to deepen my understanding of [topic or text, e.g., Plato's Allegory of the Cave]. Ask me a series of probing questions to challenge my assumptions, explore underlying concepts, and guide me to a more robust understanding without giving me the direct answers.",
+            "tags": [
+                "Critical Thinking",
+                "Socratic Method",
+                "Deep Learning",
+                "Tutoring"
+            ],
+            "difficulty": "Advanced"
+        },
+        {
+            "id": 5,
+            "title": "Personalized Learning Path Designer",
+            "prompt": "Create a personalized learning path for a student who wants to learn [skill or subject, e.g., Python programming]. The student's current level is [beginner/intermediate] and their goal is to [specific goal, e.g., build a simple web app]. Outline key topics, suggest resources (online courses, books, projects), and provide a week-by-week study schedule for [duration, e.g., 8 weeks].",
+            "tags": [
+                "Personalized Learning",
+                "Study Plan",
+                "Skill Development",
+                "Self-Study"
+            ],
+            "difficulty": "Advanced"
+        },
+        {
+            "id": 6,
+            "title": "Historical Event Analyst",
+            "prompt": "Provide a detailed analysis of the historical event [name of event, e.g., the fall of the Berlin Wall]. Include the key players involved, the primary causes, the major consequences, and its long-term significance.",
+            "tags": [
+                "History",
+                "Analysis",
+                "Historical Research"
+            ],
+            "difficulty": "Intermediate"
+        },
+        {
+            "id": 7,
+            "title": "Literary Analysis Guide",
+            "prompt": "Analyze the main themes of the novel [novel title] by [author]. Discuss how the author uses literary devices such as [e.g., symbolism, foreshadowing, irony] to develop these themes, providing specific examples from the text.",
+            "tags": [
+                "Literature",
+                "Literary Analysis",
+                "Book Report Help"
+            ],
+            "difficulty": "Advanced"
+        },
+        {
+            "id": 8,
+            "title": "Scientific Experiment Designer",
+            "prompt": "Design a simple, safe scientific experiment to demonstrate the principle of [scientific principle, e.g., osmosis, gravity, chemical reactions]. List the materials needed, provide step-by-step instructions, and explain the expected outcome and the science behind it.",
+            "tags": [
+                "Science Experiment",
+                "STEM",
+                "Hands-on Learning"
+            ],
+            "difficulty": "Intermediate"
+        },
+        {
+            "id": 9,
+            "title": "Debate Topic Pro-Con Generator",
+            "prompt": "For the debate topic '[debate topic, e.g., Should school uniforms be mandatory?]', generate three well-reasoned arguments for the 'pro' side and three well-reasoned arguments for the 'con' side. Support each argument with a piece of evidence or a logical reason.",
+            "tags": [
+                "Debate",
+                "Argumentation",
+                "Persuasive Writing"
+            ],
+            "difficulty": "Intermediate"
+        },
+        {
+            "id": 10,
+            "title": "Language Learning Scenario",
+            "prompt": "Create a realistic dialogue scenario for a [language] learner at the [proficiency level, e.g., beginner, intermediate] level. The scenario should be [situation, e.g., ordering food at a restaurant, asking for directions, making a new friend]. Include both sides of the conversation with a translation in English.",
+            "tags": [
+                "Language Learning",
+                "Conversation Practice",
+                "Role-playing"
+            ],
+            "difficulty": "Beginner"
+        }
+    ],
+    "image-generation": [
+        {
+            "id": 1,
+            "title": "Formal Man Image generation",
+            "prompt": "PROMOTSTYLISH EDITORIAL PORTRAIT OF A CONFIDENT INDIAN MAN SEATED ON A BOLD RED CHAIR, DRESSED IN A BROWN CHECKERED BLAZER, WHITE SHIRT, TAILORED TROUSERS, AND WHITE NIKE AIR FORCE 1S. SET AGAINST A MINIMALIST BROWN BACKDROP WITH SUBTLE HS TYPOGRAPHY, THE SCENE EXUDES MODERN ELEGANCE AND HIGH-FASHION SOPHISTICATION",
+            "tags": [
+                "image-generation",
+                "fashion",
+                "portrait"
+            ],
+            "difficulty": "Beginner",
+            "url": "/images/sam1.png"
+        },
+        {
+            "id": 2,
+            "title": "Stylish & Confident Young Man",
+            "prompt": "A CONFIDENT, ATTRACTIVE YOUNG MAN (SAME PERSON IN IMAGE) WITH A WELL-GROOMED BEARD AND TOUSLED HAIR, POSING THOUGHTFULLY WITH HIS HAND ON HIS CHIN. HE WEARS A FITTED BLACK T-SHIRT THAT ACCENTUATES HIS MUSCULAR ARMS. TATTOOS ARE VISIBLE ON BOTH UPPER ARMS. THE PORTRAIT IS CAPTURED IN BLACK AND WHITE WITH SOFT LIGHTING, CREATING A CLASSIC, STYLISH, AND SLIGHTLY DRAMATIC STUDIO LOOK.",
+            "tags": [
+                "image-generation",
+                "portrait",
+                "fashion"
+            ],
+            "difficulty": "Beginner",
+            "url": "/images/sam2.png"
+        },
+        {
+            "id": 3,
+            "title": "Stylish",
+            "prompt": "Create a cinematic, fashion-style portrait of the same person in the reference image, shot from a low angle as if looking up at them. The person stands confidently among tall blooming yellow and pink wildflowers, wearing a fluffy lavender teddy coat. The background is a clear, soft blue sky with no clouds. The image should have a dreamy, film-like quality with shallow depth of field - flowers in the foreground are artistically blurred. The lighting is natural and soft, evoking a calm spring afternoon. The person has a composed and slightly serious expression, with neat Undercut with volume hair. The aesthetic should be modern editorial with a warm, nostalgic tone.",
+            "tags": [
+                "image-generation",
+                "portrait",
+                "fashion"
+            ],
+            "difficulty": "Beginner",
+            "url": "/images/sam3.png"
+        }
+    ],
+    "data-analysis": [
+        {
+            "id": 1,
+            "title": "Summarize Dataset Insights",
+            "prompt": "Analyze the dataset and provide a high-level summary including trends, patterns, and anomalies.",
+            "tags": [
+                "data-analysis",
+                "summary",
+                "insights"
+            ],
+            "difficulty": "Beginner"
+        },
+        {
+            "id": 2,
+            "title": "Correlation Analysis",
+            "prompt": "Identify and explain the correlations between numerical variables in the dataset, highlighting the strongest relationships.",
+            "tags": [
+                "data-analysis",
+                "correlation",
+                "statistics"
+            ],
+            "difficulty": "Intermediate"
+        },
+        {
+            "id": 3,
+            "title": "Missing Data Report",
+            "prompt": "Analyze the dataset and return a detailed report of missing values, including percentage of missing data per column.",
+            "tags": [
+                "data-cleaning",
+                "missing-values",
+                "data-quality"
+            ],
+            "difficulty": "Beginner"
+        },
+        {
+            "id": 4,
+            "title": "Outlier Detection",
+            "prompt": "Detect and list any outliers in the dataset using statistical methods such as IQR or Z-score.",
+            "tags": [
+                "outliers",
+                "data-analysis",
+                "statistics"
+            ],
+            "difficulty": "Intermediate"
+        },
+        {
+            "id": 5,
+            "title": "Trend Forecasting",
+            "prompt": "Analyze the time-series data and forecast future values using an appropriate predictive model.",
+            "tags": [
+                "forecasting",
+                "time-series",
+                "prediction"
+            ],
+            "difficulty": "Advanced"
+        },
+        {
+            "id": 6,
+            "title": "Cluster Analysis",
+            "prompt": "Group the data into clusters based on similarities and provide insights about each cluster.",
+            "tags": [
+                "clustering",
+                "machine-learning",
+                "data-analysis"
+            ],
+            "difficulty": "Advanced"
+        },
+        {
+            "id": 7,
+            "title": "Data Distribution Overview",
+            "prompt": "Provide a detailed breakdown of the distribution of values for each column, including histograms and summary statistics.",
+            "tags": [
+                "data-visualization",
+                "statistics",
+                "data-analysis"
+            ],
+            "difficulty": "Intermediate"
+        }
+    ],
+    "health-wellness": [
+        {
+            "id": 1,
+            "title": "Personalized Workout Plan",
+            "prompt": "Create a 4-week personalized workout plan based on the user's fitness level, goals, and available equipment.",
+            "tags": [
+                "fitness",
+                "workout",
+                "health"
+            ],
+            "difficulty": "Intermediate"
+        },
+        {
+            "id": 2,
+            "title": "Balanced Diet Plan",
+            "prompt": "Design a weekly diet plan that balances macronutrients and micronutrients according to the user's age, gender, and activity level.",
+            "tags": [
+                "nutrition",
+                "meal-plan",
+                "wellness"
+            ],
+            "difficulty": "Intermediate"
+        },
+        {
+            "id": 3,
+            "title": "Stress Management Guide",
+            "prompt": "Provide effective daily techniques for managing stress and improving mental well-being.",
+            "tags": [
+                "stress-relief",
+                "mental-health",
+                "wellness"
+            ],
+            "difficulty": "Beginner"
+        },
+        {
+            "id": 4,
+            "title": "Sleep Improvement Tips",
+            "prompt": "Suggest science-backed strategies to improve sleep quality and maintain a healthy sleep cycle.",
+            "tags": [
+                "sleep",
+                "health",
+                "wellness"
+            ],
+            "difficulty": "Beginner"
+        },
+        {
+            "id": 5,
+            "title": "Healthy Snack Ideas",
+            "prompt": "List 10 quick and nutritious snack ideas that are low in sugar and high in protein.",
+            "tags": [
+                "nutrition",
+                "snacks",
+                "healthy-eating"
+            ],
+            "difficulty": "Beginner"
+        },
+        {
+            "id": 6,
+            "title": "Beginner Yoga Routine",
+            "prompt": "Design a 20-minute beginner-friendly yoga sequence for relaxation and flexibility.",
+            "tags": [
+                "yoga",
+                "wellness",
+                "exercise"
+            ],
+            "difficulty": "Beginner"
+        },
+        {
+            "id": 7,
+            "title": "Hydration Tracker Plan",
+            "prompt": "Create a daily hydration schedule to ensure optimal water intake based on body weight and activity.",
+            "tags": [
+                "hydration",
+                "health",
+                "wellness"
+            ],
+            "difficulty": "Beginner"
+        },
+        {
+            "id": 8,
+            "title": "Posture Correction Exercises",
+            "prompt": "Provide exercises and stretches to improve posture and reduce back or neck pain.",
+            "tags": [
+                "posture",
+                "exercise",
+                "health"
+            ],
+            "difficulty": "Intermediate"
+        },
+        {
+            "id": 9,
+            "title": "Mindfulness Meditation Script",
+            "prompt": "Write a 10-minute mindfulness meditation script for beginners to reduce anxiety and improve focus.",
+            "tags": [
+                "mindfulness",
+                "meditation",
+                "mental-health"
+            ],
+            "difficulty": "Intermediate"
+        },
+        {
+            "id": 10,
+            "title": "Heart Health Checklist",
+            "prompt": "Generate a daily and weekly checklist for maintaining cardiovascular health.",
+            "tags": [
+                "heart-health",
+                "wellness",
+                "checklist"
+            ],
+            "difficulty": "Beginner"
+        },
+        {
+            "id": 11,
+            "title": "Immune Boosting Guide",
+            "prompt": "List natural ways to boost immunity including diet, supplements, and lifestyle changes.",
+            "tags": [
+                "immunity",
+                "nutrition",
+                "health"
+            ],
+            "difficulty": "Beginner"
+        },
+        {
+            "id": 12,
+            "title": "Healthy Office Habits",
+            "prompt": "Suggest habits and stretches for people working long hours at a desk to avoid fatigue and injuries.",
+            "tags": [
+                "office-health",
+                "wellness",
+                "productivity"
+            ],
+            "difficulty": "Intermediate"
+        },
+        {
+            "id": 13,
+            "title": "Weight Loss Strategy",
+            "prompt": "Develop a safe and effective weight loss plan combining diet, exercise, and habit tracking.",
+            "tags": [
+                "weight-loss",
+                "fitness",
+                "health"
+            ],
+            "difficulty": "Intermediate"
+        },
+        {
+            "id": 14,
+            "title": "Mental Health Self-Care Plan",
+            "prompt": "Create a personalized self-care routine focusing on emotional well-being and resilience.",
+            "tags": [
+                "mental-health",
+                "self-care",
+                "wellness"
+            ],
+            "difficulty": "Beginner"
+        },
+        {
+            "id": 15,
+            "title": "Fitness Progress Tracker",
+            "prompt": "Design a simple tracker to monitor exercise performance, weight changes, and overall health improvements over time.",
+            "tags": [
+                "fitness-tracker",
+                "health",
+                "progress"
+            ],
+            "difficulty": "Intermediate"
+        }
+    ]
+}
