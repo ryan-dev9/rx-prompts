@@ -31,10 +31,6 @@ export default function RootLayout({ children }) {
       <body
         className={[orbitron.className, geistSans.className]}
       >
-        <head>
-          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8914479693209883"
-            crossorigin="anonymous"></script>
-        </head>
         <Navbar />
         {children}
         <Analytics />
