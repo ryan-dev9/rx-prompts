@@ -31,9 +31,7 @@ export default function Navbar() {
         <Link href="/prompts" className="text-gray-700 text-xl dark:text-gray-200 hover:text-blue-700 font-medium transition-colors duration-200">
           Prompts
         </Link>
-        <Link href="/contact" className="text-gray-700 text-xl dark:text-gray-200 hover:text-blue-700 font-medium transition-colors duration-200">
-          Contact
-        </Link>
+  
       </div>
 
       {/* <div className="md:hidden">

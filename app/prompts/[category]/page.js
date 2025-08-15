@@ -1,5 +1,5 @@
 "use client"
-import { motion } from "framer-motion";
+import { motion } from "motion/react"
 import { useParams, useRouter } from "next/navigation";
 import { useState } from "react";
 import promptsData from "../../data/prompts.json";

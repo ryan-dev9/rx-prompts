@@ -5,6 +5,7 @@ import { Orbitron } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next"
 import { SpeedInsights } from "@vercel/speed-insights/next"
 
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -30,10 +31,14 @@ export default function RootLayout({ children }) {
       <body
         className={[orbitron.className, geistSans.className]}
       >
-        <Navbar/>
+        <head>
+          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8914479693209883"
+            crossorigin="anonymous"></script>
+        </head>
+        <Navbar />
         {children}
-        <Analytics/>
-        <SpeedInsights/>
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
