@@ -1,23 +1,19 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import { Orbitron } from "next/font/google";
-import { Analytics } from "@vercel/analytics/next"
-import { SpeedInsights } from "@vercel/speed-insights/next"
-
+// import { Analytics } from "@vercel/analytics/next"
+// import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
+  display: "swap",
 });
 const orbitron = Orbitron({
   subsets: ["latin"], // or ["latin-ext"]
   weight: ["400", "700"], // jo weight chahiye
   display: "swap",
-});
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
 });
 
 export const metadata = {
@@ -27,14 +23,12 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body
-        className={[orbitron.className, geistSans.className]}
-      >
+    <html lang="en" className={[orbitron.className, geistSans.className]}>
+      <body>
         <Navbar />
         {children}
-        <Analytics />
-        <SpeedInsights />
+        {/* <Analytics />
+        <SpeedInsights /> */}
       </body>
     </html>
   );

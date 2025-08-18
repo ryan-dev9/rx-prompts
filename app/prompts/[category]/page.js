@@ -125,7 +125,9 @@ export default function CategoryPage() {
                     ) : (
                       <Image
                         src={prompt.url}
-                        alt={prompt.title}      
+                        alt={prompt.title}
+                        width={500} // apne image ki width set karo
+                        height={300}
                         className="rounded-lg w-full object-top h-64 object-cover"
                       />
                     )}
@@ -183,8 +185,8 @@ export default function CategoryPage() {
                 whileTap={{ scale: 0.98 }}
                 onClick={() => copyToClipboard(prompt.prompt, prompt.id)}
                 className={`w-full py-3 rounded-xl font-semibold transition-all duration-300 ${copiedId === prompt.id
-                    ? 'bg-green-600 text-white'
-                    : 'bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-500 hover:to-purple-500 text-white'
+                  ? 'bg-green-600 text-white'
+                  : 'bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-500 hover:to-purple-500 text-white'
                   }`}
               >
                 {copiedId === prompt.id ? (

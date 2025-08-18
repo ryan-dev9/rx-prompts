@@ -1,9 +1,6 @@
 "use client"
-import Image from "next/image";
 import Link from "next/link";
 import { motion } from "motion/react"
-import { Orbitron } from "next/font/google";
-
 
 export default function IntroSection() {
   return (
@@ -28,7 +25,7 @@ export default function IntroSection() {
           transition={{ duration: 0.8 }}
           className="text-center sm:mt-0 mt-10 mb-10"
         >
-          <h1 className="sm:text-7xl text-5xl mt-60 sm:mt-0 font-bold font-[Orbitron] bg-gradient-to-r from-white via-blue-200 to-purple-300 bg-clip-text text-transparent mb-4">
+          <h1 className="sm:text-7xl text-[45px] mt-60 sm:mt-0 font-bold font-[Orbitron] bg-gradient-to-r from-white via-blue-200 to-purple-300 bg-clip-text text-transparent mb-4">
             RX-PROMPTS
           </h1>
           <p className="text-2xl sm:w-[70%] font-sans w-full sm:mt-6 mt-10 mx-auto text-gray-400 mb-8">
@@ -43,19 +40,19 @@ export default function IntroSection() {
           transition={{ duration: 0.8 }}
           className="text-center w-full flex justify-center mb-15"
         >
-          <Link href="/prompts" className="animated-button">  
-              <svg viewBox="0 0 24 24" className="arr-2" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
-                ></path>
-              </svg>
-              <span className="text">Get Started</span>
-              <span className="circle"></span>
-              <svg viewBox="0 0 24 24" className="arr-1" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
-                ></path>
-              </svg>
+          <Link href="/prompts" className="animated-button">
+            <svg viewBox="0 0 24 24" className="arr-2" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+              ></path>
+            </svg>
+            <span className="text">Get Started</span>
+            <span className="circle"></span>
+            <svg viewBox="0 0 24 24" className="arr-1" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+              ></path>
+            </svg>
           </Link>
         </motion.div>
 
@@ -105,38 +102,6 @@ export default function IntroSection() {
             </motion.div>
           ))}
         </motion.div>
-
-        {/* Floating particles effect */}
-        {/* <div className="absolute top-20 left-10 opacity-20">
-          <motion.div
-            animate={{
-              y: [-10, 10, -10],
-              rotate: [0, 180, 360]
-            }}
-            transition={{
-              duration: 6,
-              repeat: Infinity,
-              ease: "easeInOut"
-            }}
-            className="w-2 h-2 bg-blue-400 rounded-full"
-          />
-        </div>
-
-        <div className="absolute bottom-32 right-10 opacity-20">
-          <motion.div
-            animate={{
-              y: [10, -10, 10],
-              x: [-5, 5, -5]
-            }}
-            transition={{
-              duration: 4,
-              repeat: Infinity,
-              ease: "easeInOut"
-            }}
-            className="w-3 h-3 bg-purple-400 rounded-full"
-          />
-        </div> */}
-
       </div>
     </main>
   );

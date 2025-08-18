@@ -82,15 +82,15 @@ function Page() {
       color: "from-emerald-600 to-green-600",
       route: "health-wellness"
     },
-    // {
-    //   id: 9,
-    //   name: "Research and Writing",
-    //   description: "Academic writing, research assistance, citations, and scholarly content prompts.",
-    //   icon: "🔍",
-    //   promptCount: "10+ prompts",
-    //   color: "from-violet-600 to-purple-600",
-    //   route: "research-writing"
-    // }
+    {
+      id: 9,
+      name: "Research and Writing",
+      description: "Academic writing, research assistance, citations, and scholarly content prompts.",
+      icon: "🔍",
+      promptCount: "10+ prompts",
+      color: "from-violet-600 to-purple-600",
+      route: "research-writing"
+    }
   ];
 
   const filteredCategories = categories.filter(category =>
@@ -111,7 +111,7 @@ function Page() {
           transition={{ duration: 0.8 }}
           className="text-center mb-16"
         >
-          <h1 className="sm:text-6xl text-5xl mt-2 font-bold font-[Orbitron] bg-gradient-to-r from-white via-blue-200 to-purple-300 bg-clip-text text-transparent mb-4">
+          <h1 className="sm:text-6xl text-[45px] mt-2 font-bold font-[Orbitron] bg-gradient-to-r from-white via-blue-200 to-purple-300 bg-clip-text text-transparent mb-4">
             RX-PROMPTS
           </h1>
           <p className="text-xl text-gray-400 mb-8">
