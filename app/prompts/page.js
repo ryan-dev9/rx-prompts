@@ -148,7 +148,7 @@ function Page() {
             <motion.div
               key={category.id}
               initial={{ opacity: 0, y: 50, scale: 0.9 }}
-              whileInView={{ opacity: 1, y: 0, scale: 1 }}
+              animate={{ opacity: 1, y: 0, scale: 1 }}
               viewport={{ once: true }}
               transition={{
                 delay: index * 0.1,
@@ -224,7 +224,7 @@ function Page() {
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.4 }}
           className="mt-16 text-center"
-        >
+          >
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-gray-800/30 backdrop-blur-sm group  rounded-xl p-6 border border-gray-700/30">

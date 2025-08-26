@@ -5,14 +5,14 @@ import { motion } from "motion/react"
 export default function IntroSection() {
   return (
     <main className="min-h-screen w-full flex flex-col items-center justify-center py-16 bg-gradient-to-br from-gray-900 via-black to-gray-900">
-      <div className="max-w-full mx-auto px-6">
+        <div className="max-w-full mx-auto px-2">
 
         {/* Decorative lines with animation */}
         <motion.div
           initial={{ opacity: 0, scaleX: 0 }}
           animate={{ opacity: 1, scaleX: 1 }}
           transition={{ duration: 1, delay: 0.2 }}
-          className="w-full  flex justify-between mb-12"
+          className="w-full  flex justify-between  mb-8"
         >
           <div className="h-px w-1/3 bg-gradient-to-r from-transparent via-blue-500 to-transparent" />
           <div className="h-px w-1/3 bg-gradient-to-r from-transparent via-purple-500 to-transparent" />
@@ -23,9 +23,9 @@ export default function IntroSection() {
           initial={{ opacity: 0, y: -30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="text-center sm:mt-0 mt-10 mb-10"
+          className="text-center sm:mt-0 mt-10 mb-5"
         >
-          <h1 className="sm:text-7xl text-[45px] mt-60 sm:mt-0 font-bold font-[Orbitron] bg-gradient-to-r from-white via-blue-200 to-purple-300 bg-clip-text text-transparent mb-4">
+          <h1 className="sm:text-7xl text-[45px] mt-97 sm:mt-0 font-bold font-[Orbitron] bg-gradient-to-r from-white via-blue-200 to-purple-300 bg-clip-text text-transparent mb-4">
             RX-PROMPTS
           </h1>
           <p className="text-2xl sm:w-[70%] font-sans w-full sm:mt-6 mt-10 mx-auto text-gray-400 mb-8">
@@ -38,7 +38,7 @@ export default function IntroSection() {
           initial={{ opacity: 0, y: -30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="text-center w-full flex justify-center mb-15"
+          className="text-center w-full flex justify-center mb-8"
         >
           <Link href="/prompts" className="animated-button">
             <svg viewBox="0 0 24 24" className="arr-2" xmlns="http://www.w3.org/2000/svg">
@@ -46,7 +46,7 @@ export default function IntroSection() {
                 d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
               ></path>
             </svg>
-            <span className="text">Get Started</span>
+            <span className="text">Lets Explore</span>
             <span className="circle"></span>
             <svg viewBox="0 0 24 24" className="arr-1" xmlns="http://www.w3.org/2000/svg">
               <path
@@ -62,7 +62,7 @@ export default function IntroSection() {
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 1 }}
-          className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto"
+          className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto sm:px-0 px-3"
         >
           {[
             { number: "100+", label: "AI Prompts", icon: "🤖" },

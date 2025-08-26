@@ -65,7 +65,7 @@ export default function CategoryPage() {
           animate={{ opacity: 1, x: 0 }}
           onClick={() => router.back()}
           className="flex px-2 py-1 rounded-full bg-black items-center fixed z-100 border border-blue-300  text-gray-400 hover:text-white mb-8 transition-colors duration-300"
-        >
+          >
           <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
           </svg>
@@ -92,12 +92,12 @@ export default function CategoryPage() {
         <div className="grid gap-6 lg:grid-cols-1 xl:grid-cols-2">
           {prompts.map((prompt, index) => (
             <motion.div
-              key={prompt.id}
-              initial={{ opacity: 0, y: 50 }}
-              animate={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: index * 0.1, duration: 0.6 }}
-              className="group bg-gradient-to-br from-gray-800/50 to-gray-900/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-700/50 hover:border-gray-600/70 transition-all duration-300 hover:shadow-2xl hover:shadow-blue-500/10"
+            key={prompt.id}
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: index * 0.1, duration: 0.6 }}
+            className="group bg-gradient-to-br from-gray-800/50 to-gray-900/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-700/50 hover:border-gray-600/70 transition-all duration-300 hover:shadow-2xl hover:shadow-blue-500/10"
             >
 
               {/* Header */}
@@ -125,16 +125,16 @@ export default function CategoryPage() {
                     ) : (
                       // In app/prompts/[category]/page.js - Replace the Image component usage
                       <Image
-                        src={prompt.url}
-                        alt={prompt.title}
-                        width={500}
+                      src={prompt.url}
+                      alt={prompt.title}
+                      width={500}
                         height={300}
                         className="rounded-lg w-full object-top h-64 object-cover"
                         priority={index < 2} // Priority load first 2 images
                         placeholder="blur"
                         blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAX/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCdABmX/9k="
                         sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                      />
+                        />
                     )}
 
                     {/* Toggle Buttons */}
@@ -142,7 +142,7 @@ export default function CategoryPage() {
                       <button
                         onClick={() => setExpandedPrompts(prev => ({ ...prev, [prompt.id]: false }))}
                         className={`flex-1 px-4 py-2 rounded-lg text-sm font-semibold ${!expandedPrompts[prompt.id] ? "bg-blue-600 text-white" : "bg-gray-800 text-gray-300"}`}
-                      >
+                        >
                         Preview
                       </button>
                       <button
@@ -162,8 +162,8 @@ export default function CategoryPage() {
                     </p>
                     {prompt.prompt.length > 150 && (
                       <button
-                        onClick={() => togglePrompt(prompt.id)}
-                        className="mt-2 border border-blue-600 px-2 py-1 rounded duration-300 text-blue-600 hover:text-blue-300 text-lg"
+                      onClick={() => togglePrompt(prompt.id)}
+                      className="mt-2 border border-blue-600 px-2 py-1 rounded duration-300 text-blue-600 hover:text-blue-300 text-lg"
                       >
                         {expandedPrompts[prompt.id] ? "Show Less" : "Read More"}
                       </button>
@@ -192,8 +192,8 @@ export default function CategoryPage() {
                 className={`w-full py-3 rounded-xl font-semibold transition-all duration-300 ${copiedId === prompt.id
                   ? 'bg-green-600 text-white'
                   : 'bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-500 hover:to-purple-500 text-white'
-                  }`}
-              >
+                }`}
+                >
                 {copiedId === prompt.id ? (
                   <div className="flex items-center justify-center">
                     <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -217,10 +217,10 @@ export default function CategoryPage() {
         {/* Empty State */}
         {prompts.length === 0 && (
           <motion.div
-            initial={{ opacity: 0 }}
+          initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             className="text-center py-16"
-          >
+            >
             <div className="text-6xl mb-4">🚧</div>
             <h3 className="text-2xl font-bold text-white mb-4">Coming Soon!</h3>
             <p className="text-gray-400 mb-8">
@@ -229,7 +229,7 @@ export default function CategoryPage() {
             <button
               onClick={() => router.back()}
               className="px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-xl hover:from-blue-500 hover:to-purple-500 transition-all duration-300"
-            >
+              >
               Back to Categories
             </button>
           </motion.div>

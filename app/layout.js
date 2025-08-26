@@ -16,9 +16,27 @@ const orbitron = Orbitron({
   display: "swap",
 });
 
+// export const metadata = {
+//   title: "RX-Prompts",
+//   description: "The Ultimate prompts Library ",
+//   icons: {
+//     icon: "/favicon.ico", // public folder se direct path
+//   },
+// };
+
 export const metadata = {
-  title: "RX-Prompts",
-  description: "Your Ultimate prompts Library",
+  title: "RX-Prompts - Ultimate AI Prompts Library",
+  description: "The Ultimate prompts Library for AI Bots. 100+ professional AI prompts across 9 categories.",
+  icons: {
+    icon: "/favicon.ico", 
+  },
+  keywords: "AI prompts, ChatGPT prompts, business prompts, content creation, programming",
+  authors: [{ name: "Ryan Developer" }],
+  openGraph: {
+    title: "RX-Prompts - Ultimate AI Prompts Library",
+    description: "100+ professional AI prompts across 9 categories",
+    type: "website",
+  },
 };
 
 export default function RootLayout({ children }) {
